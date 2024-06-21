@@ -1,0 +1,78 @@
+@import "../node_modules/ag-grid-community/src/styles/ag-grid.scss";
+@import "../node_modules/ag-grid-community/src/styles/ag-theme-balham/sass/ag-theme-balham.scss";
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+div .marginLeftTabs{
+  margin-left: 1rem;
+}
+div .marginLeftAccordion{
+  margin-left: 0rem;
+}
+div .marginRightGrid{
+  margin-right: 1rem !important;
+}
+div .marginTopGrid{
+  margin-top: 1rem;
+}
+div .row{
+  margin-right: 0px;
+}
+div .accordion{
+  width:120em;
+}
+div .addRemoveBtnWidth{
+  width:6em !important;
+}
+div #accordionUpdateBtn{
+  margin-left: 5.5rem;
+}
+$ag-odd-row-background-color: red;
+
+.ag-input-wrapper, .ag-picker-field-wrapper {
+  line-height: 2;
+}
+.ag-theme-balham .ag-ltr .ag-cell {
+  padding-top: 5px;
+}
+.addBtnWidth{
+  width:8em !important;
+}
+

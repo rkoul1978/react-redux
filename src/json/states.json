@@ -1,0 +1,75 @@
+{
+	"name": "State",
+	"id": 67,
+	"type": "string",
+	"states": [
+        {
+        "name": "Kentucky", "value": "KY" 
+        },
+		{
+        "name": "Wyoming", "value": "WY"  
+        }
+	],
+	"areacodes": [
+        {
+        "name": "CA", "value": "909" 
+        },
+		{
+        "name": "CA", "value": "650"  
+		},
+		{
+		"name": "CA", "value": "310"  
+		}
+	],
+	"zipcodes": [
+        {
+        "name": "FL", "value": "33615" 
+        },
+		{
+        "name": "FL", "value": "33635"  
+		},
+		{
+		"name": "FL", "value": "33637"  
+		}
+	],
+	"active":[
+		{
+			"regid": "53", "regval":"Teletech MW Topeka KS", "depid": "283", "depval": "CS Center Ops Mgmt"
+		},
+		{
+			"regid": "153", "regval":"W Conduent Boise ID","depid": "172", "depval": "Federal AOC"
+		},
+		{
+			"regid": "53", "regval":"Teletech MW Topeka KS", "depid": "283", "depval": "CS Center Ops Mgmt"
+		},
+		{
+			"regid": "153", "regval":"W Conduent Boise ID","depid": "172", "depval": "Federal AOC"
+		},
+		{
+			"regid": "53", "regval":"Teletech MW Topeka KS", "depid": "283", "depval": "CS Center Ops Mgmt"
+		},
+		{
+			"regid": "153", "regval":"W Conduent Boise ID","depid": "172", "depval": "Federal AOC"
+		},
+		{
+			"regid": "53", "regval":"Teletech MW Topeka KS", "depid": "283", "depval": "CS Center Ops Mgmt"
+		},
+		{
+			"regid": "153", "regval":"W Conduent Boise ID","depid": "172", "depval": "Federal AOC"
+		},
+		{
+			"regid": "53", "regval":"Teletech MW Topeka KS", "depid": "283", "depval": "CS Center Ops Mgmt"
+		},
+		{
+			"regid": "153", "regval":"W Conduent Boise ID","depid": "172", "depval": "Federal AOC"
+		}
+	],
+	"paused":[
+		{
+			"regid": "", "regval":"","depid": "", "depval": ""
+		},
+		{
+			"regid": "", "regval":"","depid": "", "depval": ""
+		}
+	]
+}

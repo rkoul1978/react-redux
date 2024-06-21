@@ -1,0 +1,36 @@
+[{
+  "id": 111111,
+  "properties": [
+    {
+      "name": "SHEELA",
+      "email": "s@s.com",
+      "phoneno":""
+    }
+  ]
+},
+{
+  "id": 902101,
+  "properties": [
+    {
+      "name": "ANUPAM",
+      "email": "m@m.com",
+      "phoneno":""
+    }
+  ]
+},
+{
+  "id": 123456,
+  "properties": [
+    {
+      "name": "RAKSHIT",
+      "email": "r@r.com",
+      "phoneno":""
+    },
+    {
+      "name": "ARUN",
+      "email": "a@a.com",
+      "phoneno":""
+    }
+  ]
+}]
+

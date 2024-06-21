@@ -1,0 +1,3549 @@
+	Departments
+[
+    {
+        "name": "CS Center Ops Mgmt",
+        "id": 283,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Federal AOC",
+        "id": 172,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Loyalty - Quality",
+        "id": 193,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "test",
+        "id": 7,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "LMS - Retention",
+        "id": 11,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "LMS",
+        "id": 15,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Management Svcs",
+        "id": 19,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Telemarketing",
+        "id": 24,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Loyalty Management",
+        "id": 30,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Activations",
+        "id": 35,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CRT/Exec Appleals (N)",
+        "id": 39,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Major/Corp/BSC Accts. (N)",
+        "id": 44,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BFS",
+        "id": 50,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Conversion",
+        "id": 53,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Leadership Team",
+        "id": 57,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Universal rep",
+        "id": 61,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "MICC",
+        "id": 66,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Coordinators",
+        "id": 69,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "GSC CS",
+        "id": 252,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Inventory",
+        "id": 258,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Natl CS RM Planning Ops",
+        "id": 308,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support Pilot Users",
+        "id": 310,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "WLNP",
+        "id": 301,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service - Alltel Vendor",
+        "id": 317,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "IT Security Administration",
+        "id": 328,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Quality",
+        "id": 331,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Management - Vendor",
+        "id": 334,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Offline Fulfillment",
+        "id": 337,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Gov Ops",
+        "id": 354,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service - B2B",
+        "id": 361,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Tech Support Management",
+        "id": 473,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat Tech Management - Vendor",
+        "id": 477,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO GEA Mgmt",
+        "id": 350,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prepaid Chat OS Transition",
+        "id": 400,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service - OS Transition",
+        "id": 447,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service - Retention",
+        "id": 320,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service Cross Trained",
+        "id": 336,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prepaid Tech Transition",
+        "id": 358,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BFO Quality",
+        "id": 442,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support - Vendor Transition",
+        "id": 341,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Pro",
+        "id": 359,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Employee Accounts - Coordinator",
+        "id": 423,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "zzzTestACSSOnly3",
+        "id": 315,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Gov Global Enterprise Advisor",
+        "id": 327,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service MultiQ Management - Vendor",
+        "id": 436,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service - Recovery Mgmt - VZW Vendor",
+        "id": 371,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Vendor",
+        "id": 409,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - OS",
+        "id": 443,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service - Vendor",
+        "id": 362,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "VES Operations",
+        "id": 321,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Tech Support Spanish",
+        "id": 478,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Tech Mgmt",
+        "id": 351,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prepaid Chat Transition",
+        "id": 377,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service - Recovery Online - Vendor",
+        "id": 412,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales - VZW Direct Ops",
+        "id": 440,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Gov Online Mgmt",
+        "id": 313,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Offline - Vendor Transition",
+        "id": 404,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Registration Chat - Vendor HBA",
+        "id": 467,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Management - Vendor",
+        "id": 329,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Commissions",
+        "id": 316,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Credit Order Review 3",
+        "id": 324,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Natl Marketing Ops",
+        "id": 395,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Management - OS",
+        "id": 448,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support Management - Vendor",
+        "id": 330,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Gov GEA Mgmt",
+        "id": 352,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales - VZW Indirect Store Ops",
+        "id": 420,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Offline - Exception",
+        "id": 433,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Revenue Assurance GTM",
+        "id": 314,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Onebill Transition",
+        "id": 340,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "VLSS",
+        "id": 438,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Natl CS Operational Support Team",
+        "id": 439,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "IOC Management",
+        "id": 326,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Offline Mgmt",
+        "id": 355,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Credit Order Review 1 - Vendor",
+        "id": 373,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales - VZW Indirect Store",
+        "id": 418,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Employment Validation - Vendor",
+        "id": 431,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Natl CS Operational Support Team Mgmt",
+        "id": 437,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Global Support Analyst - Vendor",
+        "id": 454,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service Receivables Control - Vendor",
+        "id": 471,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Transfer Service Support Management - Vendor HBA",
+        "id": 482,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Social Media - Vendor Transition",
+        "id": 485,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Vendor Transition",
+        "id": 408,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Credit Order Review Management - Vendor",
+        "id": 374,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Telesales - Management",
+        "id": 397,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales - VZW SFA",
+        "id": 462,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat Tech - Vendor",
+        "id": 476,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Transfer Service Support Transition",
+        "id": 339,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Offline -  Vendor",
+        "id": 405,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat Tech - Vendor Transition",
+        "id": 475,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service - Recovery",
+        "id": 345,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales - VZW Indirect Ops",
+        "id": 421,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Social Media Management - Vendor",
+        "id": 487,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSS Probe East - Care/Default",
+        "id": 388,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service - Late Stage - Vendor",
+        "id": 413,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Telesales - Bilingual Vendor",
+        "id": 427,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support - Vendor",
+        "id": 318,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service - OS",
+        "id": 446,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Loyalty - Vendor",
+        "id": 383,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Natl CS Technology Ops 3",
+        "id": 460,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Pilot Users",
+        "id": 311,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "SO Tech",
+        "id": 281,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "FRU Offline",
+        "id": 234,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "UIMViewer",
+        "id": 250,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Human Resources",
+        "id": 257,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Treasury Operations",
+        "id": 262,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Spanish Customer Service",
+        "id": 274,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Loyalty Management",
+        "id": 280,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service - NE Vendor",
+        "id": 264,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "test1",
+        "id": 294,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BSC/BSAT Offline",
+        "id": 303,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Offline Customer Service",
+        "id": 255,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Network",
+        "id": 260,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Natl CS Vendor Ops",
+        "id": 307,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "WDTS Evolution Pilot Team",
+        "id": 267,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "All BSC Operations Management",
+        "id": 278,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Converged Pilot",
+        "id": 253,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Testing Dept",
+        "id": 4,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Indirect Outbound Offline",
+        "id": 293,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "NE Data Tech",
+        "id": 289,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BSC ESC IVR Fallout",
+        "id": 302,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Natl CS Operations",
+        "id": 304,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Universal Care",
+        "id": 230,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prepaid Tech Support",
+        "id": 215,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "NE Customer Service Offline",
+        "id": 192,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BSC Enterprise Tab",
+        "id": 135,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Onebill",
+        "id": 179,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service Management",
+        "id": 185,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service - Vendor",
+        "id": 203,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "WA Loyalty",
+        "id": 204,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "West Area Loyalty",
+        "id": 205,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Consumer FRU",
+        "id": 169,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Services Support Team",
+        "id": 201,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "FRU Consumer Sitel",
+        "id": 168,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CCST",
+        "id": 116,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Campbell Settlement",
+        "id": 200,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "AOC - LDR",
+        "id": 194,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Collections",
+        "id": 97,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "HT Customer Service",
+        "id": 101,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BSAT",
+        "id": 114,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prorate Reduction Team",
+        "id": 139,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSS Probe West - FS",
+        "id": 181,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSS Support - West",
+        "id": 110,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BFO",
+        "id": 112,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Employee Accounts Chat",
+        "id": 121,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "DATA Team",
+        "id": 122,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "shefali",
+        "id": 125,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "acsstest",
+        "id": 126,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "TestingAcss",
+        "id": 127,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSSTESTS",
+        "id": 152,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CS Area Operations",
+        "id": 157,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Executive Relations Regional",
+        "id": 161,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Dummy Test Invalid",
+        "id": 182,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "NE Onebill",
+        "id": 197,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "WDTS FRU",
+        "id": 98,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "HT Technical Support",
+        "id": 103,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Finance Ops",
+        "id": 105,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "FRC",
+        "id": 106,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "One Bill Old",
+        "id": 111,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "LNC Pilot",
+        "id": 123,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "EQ Tab Pilot",
+        "id": 124,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "testingRM",
+        "id": 128,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "WIRELESS",
+        "id": 129,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "EZ Move Old",
+        "id": 133,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "AOC/EZMove",
+        "id": 134,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Repeat Caller Trial",
+        "id": 140,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Premier",
+        "id": 141,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "VES Implementations",
+        "id": 142,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "WILM NSA Support Team",
+        "id": 145,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "AFNI Admin",
+        "id": 147,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CS Regional Operations",
+        "id": 159,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Offline Management",
+        "id": 163,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Premier Management",
+        "id": 165,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Retail Support",
+        "id": 195,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "HT Custoomer Service",
+        "id": 100,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Center Ops",
+        "id": 117,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "HT Prepay",
+        "id": 118,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "WDTS FRU Old",
+        "id": 144,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Gov Online",
+        "id": 151,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "HQCS Operations",
+        "id": 162,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Offline OCC",
+        "id": 164,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Startek - Quality",
+        "id": 189,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "FRU",
+        "id": 202,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "HT COOS",
+        "id": 99,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "HT Activations",
+        "id": 104,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service-English",
+        "id": 107,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service English",
+        "id": 113,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service Offline",
+        "id": 138,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales Op",
+        "id": 146,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support",
+        "id": 148,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Data Support FRU",
+        "id": 149,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Global Support",
+        "id": 150,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Global Enterprise Advisor",
+        "id": 155,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BSC Phone Team",
+        "id": 167,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Bilingual",
+        "id": 198,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "OnStar",
+        "id": 143,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSSTESTS - W",
+        "id": 153,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Quality",
+        "id": 166,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "NE Care",
+        "id": 196,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Executive Relations Area",
+        "id": 160,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Data Test Dept2",
+        "id": 178,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Operations",
+        "id": 184,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSS Support",
+        "id": 109,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Management",
+        "id": 158,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service - SO Vendor",
+        "id": 170,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "NE National AOC",
+        "id": 175,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "HT Majors",
+        "id": 102,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BFO Management",
+        "id": 154,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Online Mgmt",
+        "id": 156,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CMO, Loyalty Offline",
+        "id": 173,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Services - Quality",
+        "id": 191,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Employee Accounts - Universal",
+        "id": 108,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Data Test Dept",
+        "id": 176,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "AFNI - Quality",
+        "id": 188,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Motorolla V710",
+        "id": 174,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "After Call Survey Team",
+        "id": 187,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Offline",
+        "id": 199,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSS Test HQ",
+        "id": 183,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service - MW Vendor",
+        "id": 136,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "MW Customer Service Offline",
+        "id": 137,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Credit Order Review 2",
+        "id": 1,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CSST",
+        "id": 2,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Treasury Support Svcs",
+        "id": 5,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Unknown",
+        "id": 6,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "800 Staff Managers",
+        "id": 9,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Majors",
+        "id": 12,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Technical Support",
+        "id": 13,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CS TEST",
+        "id": 14,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "MANAGER",
+        "id": 16,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "MGR CALL",
+        "id": 17,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CPS",
+        "id": 18,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Test - CS",
+        "id": 20,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Management Svcx",
+        "id": 21,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Managers",
+        "id": 22,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Major Accounts",
+        "id": 23,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Loyalty Winback",
+        "id": 386,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "LNP Management",
+        "id": 322,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Loyalty Management - Vendor",
+        "id": 384,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service MultiQ - Vendor",
+        "id": 435,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support - OS",
+        "id": 449,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support Old",
+        "id": 25,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "AMD",
+        "id": 26,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Financial Services",
+        "id": 31,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Harrisburg",
+        "id": 32,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Harrisburg Business Support",
+        "id": 33,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Savoy",
+        "id": 34,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CCST/Offline/CS Support",
+        "id": 36,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ECare/Internet Response",
+        "id": 37,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CS Manager",
+        "id": 38,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CS Manager (N)",
+        "id": 40,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support (N)",
+        "id": 41,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CSST/Offline (N)",
+        "id": 42,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ECare/Internet Response (N)",
+        "id": 43,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "EZ Move (N)",
+        "id": 45,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Test (N)",
+        "id": 47,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CRT/Executive Appeals (N)",
+        "id": 48,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Testing",
+        "id": 49,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Online",
+        "id": 51,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Centro Latino",
+        "id": 52,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Credit",
+        "id": 54,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Spanish",
+        "id": 55,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "IT",
+        "id": 56,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "TestNew",
+        "id": 58,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech/Roaming",
+        "id": 59,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CS Offline",
+        "id": 60,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Services",
+        "id": 62,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Telesales - B2B",
+        "id": 63,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prepaid",
+        "id": 64,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "National Accounts",
+        "id": 65,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service - Coordinators",
+        "id": 67,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Business Support Center",
+        "id": 68,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "miscellaneous",
+        "id": 0,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "West Area CMO",
+        "id": 70,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CAST",
+        "id": 71,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Area Ops",
+        "id": 72,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "E Z Move",
+        "id": 73,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service",
+        "id": 74,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Loyalty/Retention",
+        "id": 75,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Escalations",
+        "id": 76,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "COOS 1",
+        "id": 77,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Quality - Vendor",
+        "id": 78,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Universal",
+        "id": 79,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Tech Support",
+        "id": 80,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Welcome Call",
+        "id": 81,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "LNP",
+        "id": 82,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Gov Offline",
+        "id": 83,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "NSA-North",
+        "id": 84,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "NE Area Operations",
+        "id": 85,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "NSA-South",
+        "id": 86,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Non CS User",
+        "id": 87,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Consolidated Major Accounts",
+        "id": 88,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Loyalty",
+        "id": 89,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "NEST",
+        "id": 90,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Training Internal - Care",
+        "id": 91,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Executive Relations Team",
+        "id": 92,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Business Sales",
+        "id": 93,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Troubleshoot",
+        "id": 94,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "WDTS 3 Strikes",
+        "id": 95,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service-Spanish",
+        "id": 96,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "RCT - Repeat Caller Team",
+        "id": 119,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Marketing Ops",
+        "id": 120,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "EZMove",
+        "id": 130,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BSAT EZMove",
+        "id": 131,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "IRT/Correspondence",
+        "id": 132,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Telesales Quality/Fraud/Ops",
+        "id": 171,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSS Probe East - FS",
+        "id": 180,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sitel - Quality",
+        "id": 186,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Compliance",
+        "id": 115,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Vantage - Quality",
+        "id": 190,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support Management",
+        "id": 229,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Transfer Service Support",
+        "id": 221,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Operations Management - Non Care",
+        "id": 224,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Offline Onebill",
+        "id": 206,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "NE Data",
+        "id": 212,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "RMG",
+        "id": 228,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSS Test1",
+        "id": 220,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Transfer Service Support Management",
+        "id": 225,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Global Support Management",
+        "id": 207,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "VZWCOM Sales Chat",
+        "id": 209,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ITSD",
+        "id": 211,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "GSK Queue",
+        "id": 226,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "South Care",
+        "id": 231,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CS Management BSC",
+        "id": 208,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sitel - Offline",
+        "id": 213,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Knowledge Base Trial",
+        "id": 222,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "WDTS",
+        "id": 210,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "AFNI - Offline",
+        "id": 214,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "First Contact Center",
+        "id": 216,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "NW Customer Service",
+        "id": 219,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service South",
+        "id": 217,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Onebill/WLNP",
+        "id": 218,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales & Marketing - Operations Management",
+        "id": 223,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CTI Testing ONLY for IT",
+        "id": 232,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "CS - Global Access",
+        "id": 227,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "AOC Test",
+        "id": 265,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "test123",
+        "id": 270,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "West Tech",
+        "id": 279,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSS EQG TEST",
+        "id": 284,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Natl CS Quality Ops",
+        "id": 305,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "AOC Internet Requests",
+        "id": 251,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tax Group",
+        "id": 261,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Evolution Transition Team",
+        "id": 268,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSS_01312008_2",
+        "id": 272,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Tech",
+        "id": 277,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Vision Support",
+        "id": 287,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Natl CS Reporting Analysis",
+        "id": 306,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Offline Converged Pilot",
+        "id": 254,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "zzzACSSTestOnly",
+        "id": 276,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BSC Offline Old",
+        "id": 233,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "WDS Global WA",
+        "id": 295,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "FRU Care",
+        "id": 298,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Natl CS Technology Ops",
+        "id": 309,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSS01312008",
+        "id": 271,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "test Dept old",
+        "id": 291,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Converged Wireless CSTS",
+        "id": 263,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Telesales - Operations",
+        "id": 285,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSS_01312008_3",
+        "id": 273,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Registration Chat",
+        "id": 290,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "WDTS Offline",
+        "id": 286,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Bankruptcy",
+        "id": 292,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Offline NE Data Tech",
+        "id": 296,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Transfer Service Department",
+        "id": 297,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BSC Backup",
+        "id": 236,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Data",
+        "id": 266,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Data Test Dept1",
+        "id": 177,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support Spanish",
+        "id": 300,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "National FS Operations",
+        "id": 256,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "SO Customer Service",
+        "id": 275,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Pilot Users",
+        "id": 299,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "LERT",
+        "id": 235,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Marketing",
+        "id": 259,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "NE Data Team",
+        "id": 288,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Evolution Pilot Team",
+        "id": 269,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BSC/BSAT/BDSC Ops",
+        "id": 282,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service - Vendor Transition",
+        "id": 338,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Vendor HBA Transition",
+        "id": 464,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Spanish Pro - HBA",
+        "id": 470,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prepaid OS",
+        "id": 399,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Transfer Service Support - Vendor HBA Transition",
+        "id": 480,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Employee Accounts Management",
+        "id": 319,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Pro - HBA",
+        "id": 468,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat Management - OS",
+        "id": 445,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service HBA Ops",
+        "id": 459,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSR Test Department",
+        "id": 474,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Spanish Pro",
+        "id": 365,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Social Media - Tech Support",
+        "id": 483,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Coach Management - Vendor",
+        "id": 380,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales - VZW Retail Store Ops",
+        "id": 415,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Onebill Converged Management",
+        "id": 369,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Credit Order Review 4",
+        "id": 372,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Telesales - Consumer",
+        "id": 396,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Global Support Management - Vendor",
+        "id": 455,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Tech Support Spanish Management",
+        "id": 479,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Social Media - Tech Support Management",
+        "id": 484,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Gov Offline Fulfillment",
+        "id": 346,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales - VZW Retail Store",
+        "id": 394,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service - CS Support",
+        "id": 344,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Online - Vendor Transition",
+        "id": 360,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Revenue Assurance Edge Team",
+        "id": 463,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service - Universal Retention",
+        "id": 411,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Credit Order Review Quality",
+        "id": 424,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Social Media - Vendor",
+        "id": 486,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service Spanish - Vendor",
+        "id": 363,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Tech - Vendor",
+        "id": 407,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Global Support - Vendor",
+        "id": 453,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Coach - Vendor Transition",
+        "id": 378,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Onebill Converged",
+        "id": 367,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prepaid Chat",
+        "id": 376,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prepaid Chat OS",
+        "id": 401,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat Management - Vendor",
+        "id": 410,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Executive Relations",
+        "id": 353,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prepaid OS Transition",
+        "id": 398,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service Receivables Control Management - Vendor",
+        "id": 472,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Gov Offline Mgmt",
+        "id": 356,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Tech - Vendor Transition",
+        "id": 406,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales - VZW Retail Store Management",
+        "id": 414,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales - VZW Area Store Ops",
+        "id": 417,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service - HBA",
+        "id": 456,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSS Probe West - Care/Default",
+        "id": 390,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Management - HBA",
+        "id": 458,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales - VZW Area Indirect Ops",
+        "id": 422,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support - OS Transition",
+        "id": 450,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Telesales - Management Vendor",
+        "id": 428,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Support Coord - HBA",
+        "id": 457,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Business Solution Specialist",
+        "id": 332,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service - Recovery Offline - VZW Vendor",
+        "id": 370,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support Analyst - Vendor",
+        "id": 429,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSS Test - Production Users",
+        "id": 312,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSS Probe East - Tech",
+        "id": 389,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Telesales - B2B Outbound",
+        "id": 385,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support Analyst",
+        "id": 392,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Credit Order Review Management",
+        "id": 335,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Employee Accounts Tech Management",
+        "id": 382,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service Management - Vendor",
+        "id": 364,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Global Support Analyst",
+        "id": 393,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prepaid Transition",
+        "id": 357,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Transfer Service Support - Vendor HBA",
+        "id": 481,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Finance Bill Payment Inquiry",
+        "id": 375,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prepaid Tech OS",
+        "id": 403,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales - VZW OnePOS",
+        "id": 461,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Executive Relations Management",
+        "id": 441,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales - VZW Direct Ops - BSA",
+        "id": 387,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Vendor HBA",
+        "id": 465,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prepaid Tech OS Transition",
+        "id": 402,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Onebill Converged Transition",
+        "id": 368,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Natl CS Technology Ops 2",
+        "id": 430,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Wireless Ent Help Desk",
+        "id": 347,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales - VZW Store Ops",
+        "id": 416,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Management - Vendor HBA",
+        "id": 343,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Employee Accounts Tech",
+        "id": 381,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Spanish - HBA",
+        "id": 469,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Area Ops",
+        "id": 348,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Natl Ops",
+        "id": 349,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Credit Order Review 1",
+        "id": 325,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service - Vendor HBA Transition",
+        "id": 342,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Coach - Vendor",
+        "id": 379,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support Management - OS",
+        "id": 451,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service - Vendor HBA",
+        "id": 323,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Telesales - Consumer Vendor",
+        "id": 425,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service MultiQ - Vendor Transition",
+        "id": 434,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat Management - Vendor HBA",
+        "id": 466,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSS Probe West - Tech",
+        "id": 391,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales - VZW Indirect Store Management",
+        "id": 419,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Onebill Management",
+        "id": 366,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Gov Business Solution Specialist",
+        "id": 432,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Global Support - Vendor Transition",
+        "id": 452,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Online - Vendor",
+        "id": 333,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - OS Transition",
+        "id": 444,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Telesales - B2B Vendor",
+        "id": 426,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Coach - Vendor HBA",
+        "id": 522,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Chat - Vendor",
+        "id": 520,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Chat - Vendor Transition",
+        "id": 519,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Chat Management - Vendor",
+        "id": 521,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "IT - EUS",
+        "id": 587,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Credit Order Review 3 - HBA",
+        "id": 504,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prepaid Tech Management",
+        "id": 550,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BFO 3",
+        "id": 528,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Pilot",
+        "id": 592,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Chat - Vendor Transition - OS",
+        "id": 594,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Spanish CRT",
+        "id": 542,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support CRT",
+        "id": 543,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service - HBA Transition",
+        "id": 569,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support - HBA Transition",
+        "id": 571,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Business Office Solutions Management - Vendor",
+        "id": 578,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Global Support Management - HBA",
+        "id": 516,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Credit Order Review 2 - HBA",
+        "id": 503,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Global Support - HBA Transition",
+        "id": 572,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSS Support BGCO Offline",
+        "id": 582,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Natl CS Technology Ops Pilot",
+        "id": 586,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service CRT",
+        "id": 541,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support Coord- HBA",
+        "id": 511,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales - VZW OnePOS Management",
+        "id": 500,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Business Office Solutions - Vendor",
+        "id": 577,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Coach - Vendor HBA Transition",
+        "id": 523,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service Management - Vendor - OS",
+        "id": 589,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service Spanish - Vendor - OS",
+        "id": 591,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Financial Service Vendor - Pilot",
+        "id": 600,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat Tech Coach - Vendor HBA Transition",
+        "id": 533,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "LNP TIER 2",
+        "id": 509,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Customer Service",
+        "id": 525,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Customer Service Management",
+        "id": 526,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Offline Fulfillment - Vendor Transition OS",
+        "id": 604,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Offline Fulfillment - Vendor OS",
+        "id": 603,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Management - Vendor OS",
+        "id": 602,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat Tech - OS Transition",
+        "id": 574,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat Tech Management - OS",
+        "id": 575,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Tech Advisor Group",
+        "id": 518,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Customer Service - HBA",
+        "id": 554,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Tech Support Management - HBA",
+        "id": 559,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Tech Support Spanish - HBA",
+        "id": 560,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Social Media - Tech Support Management - HBA",
+        "id": 565,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Quality - Vendor",
+        "id": 512,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Customer Service CRT - HBA",
+        "id": 555,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Tech Support - HBA",
+        "id": 557,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Tech Support CRT - HBA",
+        "id": 558,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Tech Support Spanish CRT - HBA",
+        "id": 561,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat Tech Coach - Vendor",
+        "id": 530,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat Tech Coach - Vendor Transition",
+        "id": 531,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat Tech Coach Management - Vendor HBA",
+        "id": 535,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service - HBA",
+        "id": 536,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Business Office Solutions",
+        "id": 576,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Credit Order Review 4 - HBA",
+        "id": 505,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support Management - HBA",
+        "id": 508,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service Retention - HBA",
+        "id": 537,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "LNP POD",
+        "id": 513,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Training Internal - Sales CLT",
+        "id": 496,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "ACSS Probe East - BGCO Online",
+        "id": 517,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales - VZW SFA Management",
+        "id": 501,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support Analyst - HBA",
+        "id": 583,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service MultiQ - OS",
+        "id": 580,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Global Support - HBA",
+        "id": 514,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Chat Management - Vendor - OS",
+        "id": 595,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service Management - HBA",
+        "id": 540,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prepaid Management",
+        "id": 549,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prepaid Chat Management OS",
+        "id": 552,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BFO 2",
+        "id": 527,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Tech Support Spanish Management - HBA",
+        "id": 562,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Automation Testing",
+        "id": 584,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Global Support CRT",
+        "id": 544,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service - Universal Retention - HBA",
+        "id": 596,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Chat",
+        "id": 498,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service - Vendor - OS",
+        "id": 588,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "VDSI",
+        "id": 510,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Coach Management - Vendor HBA",
+        "id": 524,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BFO 4",
+        "id": 529,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Demo and Concession Disaster Recovery - HBA",
+        "id": 568,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Sales - VZW Direct Ops - CBO",
+        "id": 585,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat Tech Coach Management - Vendor",
+        "id": 534,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Global Support Coord - HBA",
+        "id": 515,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Customer Service Management - HBA",
+        "id": 556,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Social Media - Tech Support - HBA",
+        "id": 563,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Social Media - Tech Support CRT - HBA",
+        "id": 564,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Employee Accounts - HBA",
+        "id": 566,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Employee Accounts Management - HBA",
+        "id": 567,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prepaid Management OS",
+        "id": 551,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service MultiQ Management - OS",
+        "id": 581,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Spanish - Vendor - OS",
+        "id": 599,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service - Universal Retention - Vendor - OS",
+        "id": 590,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Prepaid Tech Management OS",
+        "id": 553,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Chat - Vendor - OS",
+        "id": 593,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "IT Load Testing",
+        "id": 502,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Tech Support CRT",
+        "id": 546,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Social Media - Tech Support CRT",
+        "id": 548,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Credit Order Review Management - HBA",
+        "id": 506,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Tech Support - HBA",
+        "id": 507,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Services Quality - HBA",
+        "id": 538,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Services Support Team - HBA",
+        "id": 539,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Employee Accounts Vendor - Universal",
+        "id": 597,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Employee Accounts Vendor - Management",
+        "id": 598,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Customer Service CRT",
+        "id": 545,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Tech Support Spanish CRT",
+        "id": 547,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat Tech - OS",
+        "id": 573,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat - Vendor - ABC",
+        "id": 601,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service MultiQ - OS Transition",
+        "id": 579,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "BGCO Chat Mgmt",
+        "id": 499,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Chat Tech Coach - Vendor HBA",
+        "id": 532,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service Spanish - HBA Transition",
+        "id": 570,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Training Internal - Financial Services",
+        "id": 490,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Training Internal - BGCO",
+        "id": 491,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Training Vendor - Sales CLT",
+        "id": 497,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Demo and Concession Disaster Recovery",
+        "id": 488,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Training Vendor - BGCO",
+        "id": 495,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Training Internal - Tech",
+        "id": 489,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Training Vendor - Care",
+        "id": 492,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Training Vendor - Tech",
+        "id": 493,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Training Vendor - Financial Services",
+        "id": 494,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Customer Service",
+        "id": 3,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Financial Service",
+        "id": 46,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Revenue Assurance",
+        "id": 8,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Executive Relations",
+        "id": 10,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "Fraud Operations",
+        "id": 27,
+        "type": "string",
+        "options": null
+    },
+    {
+        "name": "VZW Digital Assist - CS",
+        "id": 605,
+        "type": "string",
+        "options": null
+    }
+]
