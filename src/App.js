@@ -18,7 +18,7 @@ import Header from './common/Header';
 import userProfileData from './json/user_profiles.json';
 
 
-//************ redux api's **********************/
+//************ redux thunk api's **********************/
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import reduxThunk from 'redux-thunk';
