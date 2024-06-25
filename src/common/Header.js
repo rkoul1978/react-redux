@@ -4,7 +4,7 @@ const Header = (props) => {
     return (
     <>
         <div className="App-header">
-          <h5>Work Hub Admin Console</h5>
+          <h5>Work Hub Administrator Console</h5>
         </div>
     </>
     );
