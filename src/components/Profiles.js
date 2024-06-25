@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { AgGridReact } from 'ag-grid-react';
 import { Row, Col, Accordion, useAccordionButton,  Card, Button, ButtonToolbar, ButtonGroup } from 'react-bootstrap';
 import {AutocompleteSelectCellEditor} from 'ag-grid-autocomplete-editor';
-import 'ag-grid-autocomplete-editor/main.css';
+import 'ag-grid-autocomplete-editor/dist/main.css';
 import SpinnerIcon from '../common/SpinnerIcon';
 import AlertBox from '../common/AlertBox';
 
