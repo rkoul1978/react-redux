@@ -28,18 +28,28 @@ const EnhancedTableToolbar= ({title,setTitle,description,setDescription,price,se
     const [filter,setFilter] = useState('');
     const titleChange = (e) => {
         setTitle(e.target.value);
+        setTitleError(false);
     }
+    const [titleError, setTitleError] = useState(false);
+    const [descError, setDescError] = useState(false);
+    const [priceError, setPriceError] = useState(false);
+    const [brandError, setBrandError] = useState(false);
+    const [stockError, setStockError] = useState(false);
     const descriptionChange = (e) => {
         setDescription(e.target.value);
+        setDescError(false);
     }
     const priceChange = (e) => {
         setPrice(e.target.value);
+        setPriceError(false);
     }
     const brandChange = (e) => {
         setBrand(e.target.value);
+        setBrandError(false);
     }
     const stockChange = (e) => {
         setStock(e.target.value);
+        setStockError(false);
     }
     const filterChange = (e) => {
         setFilter(e.target.value);
@@ -61,10 +71,37 @@ const EnhancedTableToolbar= ({title,setTitle,description,setDescription,price,se
     );
 
     const addProductClick =() => {
-        setLoading(true);
-        delay(1000).then(()=>{
-            addProduct('https://dummyjson.com/products/add',{title: title, descriptionription: description, price: price, brand : brand, stock:stock});
-        });
+        if(title === "") {
+            setTitleError(true);
+        } else {
+            setTitleError(false);
+        }
+        if(description === "") {
+            setDescError(true);
+        } else {
+            setDescError(false);
+        }
+        if(price === ""){
+            setPriceError(true);
+        } else {
+            setPriceError(false);
+        }
+        if(brand === ""){
+            setBrandError(true);
+        } else {
+            setBrandError(false);
+        }
+        if(stock === ""){
+            setStockError(true);
+        } else {
+            setStockError(false);
+        }      
+        if (title !== "" && description !== "" && price !== "" && brand !== "" && stock !== "") {
+            setLoading(true);
+            delay(1000).then(()=>{
+                addProduct('https://dummyjson.com/products/add',{title: title, description: description, price: price, brand : brand, stock:stock});
+            });
+        }
     }
 
     const resetClick = (flag) =>{
@@ -179,9 +216,9 @@ const EnhancedTableToolbar= ({title,setTitle,description,setDescription,price,se
             <span>
             <TextField id="standard-basic" label="" variant="standard" value={ filter } onInput={ filterChange } style={{ marginTop:'0px', }}/>
             <Tooltip title="Clear">
-            <IconButton onClick={ () => { resetClick('filter')  }}>
-            <ClearIcon />
-            </IconButton>
+                <IconButton onClick={ () => { resetClick('filter')  }}>
+                <ClearIcon />
+                </IconButton>
             </Tooltip>
             </span>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -212,25 +249,65 @@ const EnhancedTableToolbar= ({title,setTitle,description,setDescription,price,se
 
         <TableContainer style= {{ marginLeft:-25+'px'}}>
             <Table stickyHeader>
-            <TableHead>
-                <TableRow>
-                    <TableCell>
-                        <TextField id="standard-basic" label= { addFlag ? "Add Title":"Edit Title"} variant="standard" value={ title } onChange={ titleChange }  style={{ width:'175px', }} />   
-                    </TableCell>
-                    <TableCell>
-                        <TextField id="standard-basic" label= { addFlag ? "Add description":"Edit description"} variant="standard" value={ description } onChange={ descriptionChange }  style={{ width:'300px', }}  />
-                    </TableCell>
-                    <TableCell>
-                        <TextField id="standard-basic" label= { addFlag ? "Add Price":"Edit Price"} variant="standard" value={ price } onChange={ priceChange } style={{ width:'175px', }} />
-                    </TableCell>
-                    <TableCell>
-                        <TextField id="standard-basic" label= { addFlag ? "Add Brand":"Edit Brand"} variant="standard" value={ brand } onChange={ brandChange } style={{ width:'250px', }} />
-                    </TableCell>
-                    <TableCell>
-                        <TextField id="standard-basic" label= { addFlag ? "Add Stock":"Edit Stock"} variant="standard" value={ stock } onChange={ stockChange } style={{ width:'105px', }} /> 
-                    </TableCell>
-                </TableRow>
-            </TableHead>
+                <TableHead>
+                    <TableRow>
+                        <TableCell>
+                            <div>
+                                <TextField id="standard-basic" label= { addFlag ? "Add Title":"Edit Title"} variant="standard" value={ title } onChange={ titleChange }  style={{ width:'175px', }} />  
+                            </div>
+                            {
+                                titleError && (
+                                    <div style={{ marginTop:'5px'}}>
+                                        <span style={{ color: "red" }}>Title cannot be empty</span>
+                                    </div> )
+                            }
+                        </TableCell>
+                        <TableCell>
+                            <div>
+                                <TextField id="standard-basic" label= { addFlag ? "Add description":"Edit description"} variant="standard" value={ description } onChange={ descriptionChange }  style={{ width:'300px', }}  />
+                            </div>
+                            {
+                                descError && (
+                                    <div style={{ marginTop:'5px'}}>
+                                        <span style={{ color: "red" }}>Description cannot be empty</span>
+                                    </div> )
+                            }
+                        </TableCell>
+                        <TableCell>
+                            <div>
+                                <TextField id="standard-basic" label= { addFlag ? "Add Price":"Edit Price"} variant="standard" value={ price } onChange={ priceChange } style={{ width:'175px', }} />
+                            </div>
+                            {
+                                priceError && (
+                                    <div style={{ marginTop:'5px'}}>
+                                        <span style={{ color: "red" }}>Price cannot be empty</span>
+                                    </div> )
+                            }
+                        </TableCell>
+                        <TableCell>
+                            <div>
+                                <TextField id="standard-basic" label= { addFlag ? "Add Brand":"Edit Brand"} variant="standard" value={ brand } onChange={ brandChange } style={{ width:'250px', }} />
+                            </div>
+                            {
+                                brandError && (
+                                    <div style={{ marginTop:'5px'}}>
+                                        <span style={{ color: "red" }}>Brand cannot be empty</span>
+                                    </div> )
+                            }
+                        </TableCell>
+                        <TableCell>
+                            <div>
+                                <TextField id="standard-basic" label= { addFlag ? "Add Stock":"Edit Stock"} variant="standard" value={ stock } onChange={ stockChange } style={{ width:'105px', }} /> 
+                            </div>
+                            {
+                                stockError && (
+                                    <div style={{ marginTop:'5px'}}>
+                                        <span style={{ color: "red" }}>Stock cannot be empty</span>
+                                    </div> )
+                            }  
+                        </TableCell>
+                    </TableRow>
+                </TableHead>
             </Table>
         </TableContainer>
         ):
