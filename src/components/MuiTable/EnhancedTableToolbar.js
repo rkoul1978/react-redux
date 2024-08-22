@@ -22,19 +22,16 @@ import { ToastContainer,toast } from 'react-toastify';
 import YesNoDialog  from '../../common/YesNoDialog';
 import SpinnerDialog from '../../common/SpinnerDialog';
 
-const EnhancedTableToolbar= ({title,setTitle,description,setDescription,price,setPrice,brand,setBrand,stock,setStock,rowData,toParent,editProduct,addProduct,deleteProduct,getRowData,addedRowData,deletedRowData,updatedRowData,selectedRows,resetSelectedRowData,
-    setLoading,loading,showDialog,dialog,addBtnClick,addFlag,setSelectedRows}) => { 
+const EnhancedTableToolbar= ({title,setTitle,description,setDescription,price,setPrice,brand,setBrand,stock,setStock,rowData,toParent,editProduct,addProduct,deleteProduct,getRowData,addedRowData,
+    deletedRowData,updatedRowData,selectedRows,resetSelectedRowData,setLoading,loading,showDialog,dialog,addBtnClick,addFlag,setSelectedRows,titleError,setTitleError,
+    descError,setDescError,priceError,setPriceError,brandError,setBrandError,stockError,setStockError,resetErrors}) => { 
 
     const [filter,setFilter] = useState('');
+  
     const titleChange = (e) => {
         setTitle(e.target.value);
         setTitleError(false);
     }
-    const [titleError, setTitleError] = useState(false);
-    const [descError, setDescError] = useState(false);
-    const [priceError, setPriceError] = useState(false);
-    const [brandError, setBrandError] = useState(false);
-    const [stockError, setStockError] = useState(false);
     const descriptionChange = (e) => {
         setDescription(e.target.value);
         setDescError(false);
@@ -56,21 +53,7 @@ const EnhancedTableToolbar= ({title,setTitle,description,setDescription,price,se
         getRowData('https://dummyjson.com/products/search?q='+e.target.value);
     }
 
-    const editProductClick = () => {
-        setLoading(true);
-        rowData.map((row) =>{
-            selectedRows.map((selectedRow,index) => {
-                if(row.id === selectedRow.id)   { 
-                    editProduct('https://dummyjson.com/products/'+row.id,{title: title, description: description, price: price, brand : brand, stock:stock},index,selectedRows);
-                }
-            });
-        });
-    }
-    const delay = ms => new Promise(
-        resolve => setTimeout(resolve, ms)
-    );
-
-    const addProductClick =() => {
+    const formValidation =() =>{
         if(title === "") {
             setTitleError(true);
         } else {
@@ -96,6 +79,26 @@ const EnhancedTableToolbar= ({title,setTitle,description,setDescription,price,se
         } else {
             setStockError(false);
         }      
+    }
+    const editProductClick = () => {
+        formValidation();
+        if (title !== "" && description !== "" && price !== "" && brand !== "" && stock !== "") {
+            setLoading(true);
+            rowData.map((row) =>{
+                selectedRows.map((selectedRow,index) => {
+                    if(row.id === selectedRow.id)   { 
+                        editProduct('https://dummyjson.com/products/'+row.id,{title: title, description: description, price: price, brand : brand, stock:stock},index,selectedRows);
+                    }
+                });
+            });
+        }
+    }
+    const delay = ms => new Promise(
+        resolve => setTimeout(resolve, ms)
+    );
+
+    const addProductClick =() => {
+        formValidation();
         if (title !== "" && description !== "" && price !== "" && brand !== "" && stock !== "") {
             setLoading(true);
             delay(1000).then(()=>{
@@ -138,7 +141,7 @@ const EnhancedTableToolbar= ({title,setTitle,description,setDescription,price,se
         let toastMsg='';
         if( updatedRowData.length > 0 && selectedRows.length === updatedRowData.length) {             /*  UPDATE PRODUCT  */
             toastMsg = updatedRowData.length+' row/s updated successfully ! ';
-        setSelectedRows([]);
+            setSelectedRows([]);
         }              
 
         if(addedRowData !== null)                                                                     /*  ADD PRODUCT  */
@@ -151,7 +154,7 @@ const EnhancedTableToolbar= ({title,setTitle,description,setDescription,price,se
         //   newRowData.map((row) => {
         //    rowData.push(row);  
         //   });
-        setSelectedRows([]);
+            setSelectedRows([]);
         // toParent();
         }
         if(toastMsg !== ''){
@@ -169,6 +172,7 @@ const EnhancedTableToolbar= ({title,setTitle,description,setDescription,price,se
                 }
             });
         }
+
     }
 
     return (
@@ -222,7 +226,7 @@ const EnhancedTableToolbar= ({title,setTitle,description,setDescription,price,se
             </Tooltip>
             </span>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            <Button  startIcon={<AddIcon />} variant="outlined" color="primary" onClick={() => { addBtnClick(true) }}>Add New Product</Button>
+            <Button  startIcon={<AddIcon />} variant="outlined" color="primary" onClick={() => { addBtnClick(true); resetErrors(); }}>Add New Product</Button>
         </Typography>
         </>
     )}
@@ -231,7 +235,7 @@ const EnhancedTableToolbar= ({title,setTitle,description,setDescription,price,se
         (updatedRowData.length > 0 || deletedRowData.length > 0 || addedRowData !== null) && (
         <>
         { 
-        refreshRowData() 
+            refreshRowData() 
         }
         </>
         )
@@ -246,7 +250,7 @@ const EnhancedTableToolbar= ({title,setTitle,description,setDescription,price,se
     <>
     {
         selectedRows.length > 0 || addFlag ? (
-
+         
         <TableContainer style= {{ marginLeft:-25+'px'}}>
             <Table stickyHeader>
                 <TableHead>
@@ -310,6 +314,7 @@ const EnhancedTableToolbar= ({title,setTitle,description,setDescription,price,se
                 </TableHead>
             </Table>
         </TableContainer>
+        
         ):
         (
         <Tooltip title="Filter list">
@@ -334,7 +339,7 @@ const EnhancedTableToolbar= ({title,setTitle,description,setDescription,price,se
             </IconButton>
         </Tooltip>
         <Tooltip title="Cancel">
-            <IconButton onClick={ () => {  setSelectedRows([]); setTitle(''); setDescription('');  setPrice(''); setBrand(''); setStock(''); }}>
+            <IconButton onClick={ () => {  setSelectedRows([]); setTitle(''); setDescription('');  setPrice(''); setBrand(''); setStock(''); resetErrors();}}>
             <ClearIcon />
             </IconButton>
         </Tooltip> 
@@ -350,7 +355,7 @@ const EnhancedTableToolbar= ({title,setTitle,description,setDescription,price,se
             </IconButton>
         </Tooltip>
         <Tooltip title="Cancel">
-            <IconButton onClick={ () => { resetClick('add'); setTitle(''); setDescription('');  setPrice(''); setBrand(''); setStock('');  }}>
+            <IconButton onClick={ () => { resetClick('add'); setTitle(''); setDescription('');  setPrice(''); setBrand(''); setStock(''); resetErrors();  }}>
             <ClearIcon />
             </IconButton>
         </Tooltip> 

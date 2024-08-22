@@ -113,6 +113,7 @@ import 'react-toastify/dist/ReactToastify.min.css';
 
 import EnhancedTableToolbar  from './EnhancedTableToolbar';
 import MuiTableDescription from './MuiTableDescription';
+import { TramRounded } from '@material-ui/icons';
 
 
 function TablePaginationActions(props) {
@@ -183,15 +184,22 @@ const MuiTable= ({title,setTitle,description,setDescription,price,setPrice,brand
   const [page, setPage] = useState(0);
   const [rowsPerPage, setRowsPerPage] = useState(4);
   const [selectedRows, setSelectedRows] = useState([]);
+  const [titleError, setTitleError] = useState(false);
+  const [descError, setDescError] =   useState(false);
+  const [priceError, setPriceError] = useState(false);
+  const [brandError, setBrandError] = useState(false);
+  const [stockError, setStockError] = useState(false);
   // const [rowData, setRowData] = useState([]);
-
+  const resetErrors =() =>{
+    setTitleError(false);
+    setDescError(false);
+    setPriceError(false);
+    setBrandError(false);
+    setStockError(false);
+}
   const onSelectAllClick = (event) => {
+    resetErrors();
     addBtnClick(false);
-    setTitle('');
-    setDescription('');
-    setPrice('');
-    setBrand('');
-    setStock('')
     if (event.target.checked) {
         const newSelected = rowData.map((row) => row);
         setSelectedRows(newSelected);
@@ -201,7 +209,7 @@ const MuiTable= ({title,setTitle,description,setDescription,price,setPrice,brand
   };
 
   const handleClick = (event, row) => {
-    
+    resetErrors();
     const selectedIndex = selectedRows.indexOf(row);
     let newSelected = [];
 
@@ -260,7 +268,9 @@ const MuiTable= ({title,setTitle,description,setDescription,price,setPrice,brand
                             toParent = {toParent} addedRowData = { addedRowData } updatedRowData = { updatedRowData} deletedRowData = {deletedRowData} 
                             editProduct ={editProduct} deleteProduct = {deleteProduct} addProduct ={addProduct} getRowData = {getRowData} selectedRows={selectedRows} 
                             resetSelectedRowData={resetSelectedRowData} setLoading={setLoading} loading={loading} showDialog={showDialog} dialog={dialog}
-                            addBtnClick={addBtnClick} addFlag={addFlag} setSelectedRows={setSelectedRows}/>
+                            addBtnClick={addBtnClick} addFlag={addFlag} setSelectedRows={setSelectedRows}
+                            titleError={titleError} setTitleError={setTitleError} descError={descError} setDescError={setDescError} priceError={priceError} setPriceError={setPriceError}
+                            brandError={brandError} setBrandError={setBrandError} stockError={stockError} setStockError={setStockError} resetErrors={resetErrors}/>
       <TableContainer style={{ height:'auto' }}>
         <Table stickyHeader aria-label="mui table">
           <TableHead>
