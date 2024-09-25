@@ -61,7 +61,7 @@ const Alerts = ({productData,requestProducts}) => {
             <Col sm="1" style={{ marginTop: '0.5em', marginRight: '-2em' }}>
               <FormLabel>Product  :</FormLabel>
             </Col>
-            <Col sm="3">
+            <Col sm="2">
               <AutoComplete data='products' loadData={productData} selectedCallback={handleProductSelectedCallback} resetCallback={handleProductResetCallback}/>
             </Col>
             <Col sm="1" style={{ marginTop: '0.5em', marginRight: '-2em' }}>
@@ -79,22 +79,20 @@ const Alerts = ({productData,requestProducts}) => {
                    }
                 </FormSelect>
               </Col>
+              <Col sm="1" style={{ marginTop: '0.5em',  marginRight: '-2em' }}>
+                <FormLabel>Names  :</FormLabel>
+              </Col>
+              <Col sm="2" style={{ marginTop: '0.7em' }}>
+                <AutoCompleteDebounce data='names' selectedCallback={handleNameSelectedCallback}/>
+              </Col>
           </Row>
           <br/>
-          <Row>
-            <Col sm="1" style={{ marginTop: '0.5em', marginRight: '-2em' }}>
-              <FormLabel>Names  :</FormLabel>
-            </Col>
-            <Col sm="2">
-                <AutoCompleteDebounce data='names' selectedCallback={handleNameSelectedCallback}/>
-            </Col>
-          </Row>
           <Row>
             {
               selectedProductImages && preferredImages && selectedProductImages.map(image => (
                 <Col key ={image} sm="4">
                 {
-                  preferredImages.includes(image) ? ( <img src={image} style={{ padding:'5px', border:'2px solid red' }}/> ) :  ( <img src={image}/> )
+                  preferredImages.includes(image) ? ( <img src={image} style={{ padding:'0px', border:'1px solid red', width:'500px', height:'400px'}} /> ) :  ( <img src={image} style={{ width:'500px', height:'400px'}}/> )
                 }
                 </Col>
               ))
