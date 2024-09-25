@@ -3,9 +3,11 @@ import AutoComplete from '../common/AutoComplete';
 import AutoCompleteDebounce from '../common/AutoComplete_Debounce';
 import {  useSelector, useDispatch, connect } from "react-redux";
 import { requestCountries,requestProducts } from "../actions/AlertsAction";
+import { setLoading } from "../actions/MuiAction";
 import { Form, Row, Col, FormLabel,FormSelect } from 'react-bootstrap';
+import SpinnerDialog from '../common/SpinnerDialog';
 
-const Alerts = ({productData,requestProducts}) => {
+const Alerts = ({productData,requestProducts,setLoading,loading}) => {
 
   const _url  = "https://restcountries.com/v3.1/all";
   const url = "https://dummyjson.com/products";
@@ -25,11 +27,21 @@ const Alerts = ({productData,requestProducts}) => {
   const handleCountrySelectedCallback = (selectedCountry) =>{}
   const handleCountryResetCallback = (selectedCountry) =>{}
 
+  const delay = ms => new Promise(
+    resolve => setTimeout(resolve, ms)
+  );
+  
   const handleProductSelectedCallback = (selectedProduct) =>{
-    if(selectedProduct !== null)
+    setLoading(true);
+    if(selectedProduct !== null){
       setSelectedProductImages(selectedProduct.images);
-    else
-      setSelectedProductImages([]);
+      delay(500).then(()=>{
+        setLoading(false);
+      });
+    } else {
+        setSelectedProductImages([]);
+        setLoading(false);
+    }    
   }
   const handleProductResetCallback = (selectedProduct) =>{}
 
@@ -98,16 +110,22 @@ const Alerts = ({productData,requestProducts}) => {
               ))
             }
           </Row>
+          {
+             loading ? (
+              <SpinnerDialog title='Loading Images ...'/> ):<></>
+          }
         </Form>
     </div>
   );
   
 }
 const mapStateToProps= (state) => ({
-  productData: state.alertsReducer.productData
+  productData: state.alertsReducer.productData,
+  loading: state.muiReducer.loading,
 });
 const mapDispatchToProps= (dispatch) =>({
-  requestProducts: (url) => dispatch(requestProducts(url))
+  requestProducts: (url) => dispatch(requestProducts(url)),
+  setLoading: (loading) => dispatch(setLoading(loading))
 });
 export default connect(mapStateToProps,mapDispatchToProps)(Alerts);
 
